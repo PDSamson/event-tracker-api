@@ -7,11 +7,11 @@ curl "${API}${URL_PATH}" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "event": {
-      "title": "'"${STRING}"'",
-      "location": "'"${STRING}"'",
-      "date": "'"${STRING}"'",
-      "dresscode": "'"${STRING}"'",
-      "attendees": "'"${STRING}"'"
+      "title": "'"${TITLE}"'",
+      "location": "'"${LOCATION}"'",
+      "date": "'"${DATE}"'",
+      "dresscode": "'"${DRESSCODE}"'",
+      "attendees": "'"${ATTENDEES}"'"
     }
   }'
 
